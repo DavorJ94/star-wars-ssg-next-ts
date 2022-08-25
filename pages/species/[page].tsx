@@ -7,11 +7,11 @@ import SpeciesAccordion from "../../components/AccordionComponents/SpeciesAccord
 import CardComponent from "../../components/CardComponent";
 import CustomPaginationComponent from "../../components/CustomPaginationComponent";
 import FallbackSkeleton from "../../components/FallbackSkeleton";
-import { Species } from "../../types";
+import { Species as SpeciesType } from "../../types";
 import { getImageSrc } from "../../utils/getImageSrc";
 
 type SpeciesProps = {
-  data: Species;
+  data: SpeciesType;
 };
 
 function Species({ data }: SpeciesProps) {

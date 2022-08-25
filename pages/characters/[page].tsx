@@ -7,11 +7,11 @@ import CharactersAccordion from "../../components/AccordionComponents/Characters
 import CardComponent from "../../components/CardComponent";
 import CustomPaginationComponent from "../../components/CustomPaginationComponent";
 import FallbackSkeleton from "../../components/FallbackSkeleton";
-import { Characters } from "../../types";
+import { Characters as CharactersType } from "../../types";
 import { getImageSrc } from "../../utils/getImageSrc";
 
 type CharactersProps = {
-  data: Characters;
+  data: CharactersType;
 };
 
 function Characters({ data }: CharactersProps) {

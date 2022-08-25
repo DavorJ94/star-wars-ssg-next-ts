@@ -7,11 +7,11 @@ import FilmsAccordion from "../../components/AccordionComponents/FilmsAccordion"
 import CardComponent from "../../components/CardComponent";
 import CustomPaginationComponent from "../../components/CustomPaginationComponent";
 import FallbackSkeleton from "../../components/FallbackSkeleton";
-import { Films } from "../../types";
+import { Films as FilmsType } from "../../types";
 import { getImageSrc } from "../../utils/getImageSrc";
 
 type FilmsProps = {
-  data: Films;
+  data: FilmsType;
 };
 
 function Films({ data }: FilmsProps) {

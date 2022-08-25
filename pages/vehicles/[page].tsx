@@ -7,11 +7,11 @@ import VehiclesAccordion from "../../components/AccordionComponents/VehiclesAcco
 import CardComponent from "../../components/CardComponent";
 import CustomPaginationComponent from "../../components/CustomPaginationComponent";
 import FallbackSkeleton from "../../components/FallbackSkeleton";
-import { Vehicles } from "../../types";
+import { Vehicles as VehiclesType } from "../../types";
 import { getImageSrc } from "../../utils/getImageSrc";
 
 type VehiclesProps = {
-  data: Vehicles;
+  data: VehiclesType;
 };
 
 function Vehicles({ data }: VehiclesProps) {

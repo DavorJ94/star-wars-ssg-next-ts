@@ -7,11 +7,11 @@ import StarshipsAccordion from "../../components/AccordionComponents/StarshipsAc
 import CardComponent from "../../components/CardComponent";
 import CustomPaginationComponent from "../../components/CustomPaginationComponent";
 import FallbackSkeleton from "../../components/FallbackSkeleton";
-import { Starships } from "../../types";
+import { Starships as StarshipsType } from "../../types";
 import { getImageSrc } from "../../utils/getImageSrc";
 
 type StarshipsProps = {
-  data: Starships;
+  data: StarshipsType;
 };
 
 function Starships({ data }: StarshipsProps) {

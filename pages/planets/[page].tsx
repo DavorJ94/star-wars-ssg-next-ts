@@ -7,11 +7,11 @@ import PlanetsAccordion from "../../components/AccordionComponents/PlanetsAccord
 import CardComponent from "../../components/CardComponent";
 import CustomPaginationComponent from "../../components/CustomPaginationComponent";
 import FallbackSkeleton from "../../components/FallbackSkeleton";
-import { Planets } from "../../types";
+import { Planets as PlanetsType } from "../../types";
 import { getImageSrc } from "../../utils/getImageSrc";
 
 type PlanetsProps = {
-  data: Planets;
+  data: PlanetsType;
 };
 
 function Planets({ data }: PlanetsProps) {

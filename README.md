@@ -14,8 +14,6 @@ Details about project:
 
 - Images are being sourced from [Star Wars Visual Guide](https://starwars-visualguide.com/)
 
-$~$
-
 If you want to start project with docker:
 
 - Build your container: `docker build -t nextjs-docker`
